@@ -1,0 +1,14 @@
+@import '../../../styles/common/base.scss';
+.vs-tab-item {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	@include font-dpr(14px);
+}
+
+.vs-tab-item.vs-tab-item-selected {
+	color: #FF552E;
+	border-bottom: px2rem(4px) solid #FF552E;
+}

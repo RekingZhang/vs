@@ -1,0 +1,48 @@
+@import '../../styles/common/base.scss';
+.vs-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, .8);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vs-loading-content {
+  height: px2rem(80px);
+  width: px2rem(80px);
+  border: px2rem(6px) solid #ff552e;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin 2s infinite;
+  animation: spin 2s infinite
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg)
+  }
+  50% {
+    -webkit-transform: rotate(360deg)
+  }
+  100% {
+    -webkit-transform: rotate(0deg)
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(360deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}

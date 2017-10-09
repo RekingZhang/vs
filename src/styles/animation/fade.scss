@@ -1,0 +1,39 @@
+.fade-enter-active,
+.fade-leave-active {
+  opacity: 1;
+  transition: opacity linear 0.2s
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.dialog-fade-enter-active {
+  animation: 200ms dialog-fade;
+}
+
+.dialog-fade-leave-active {
+  animation: 200ms dialog-fade reverse;
+}
+
+@keyframes dialog-fade {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(.85);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.mask-fade-enter,
+.mask-fade-leave-active {
+  opacity: 0;
+}
+
+.mask-fade-leave-active,
+.mask-enter-active {
+  transition: opacity 300ms;
+}
