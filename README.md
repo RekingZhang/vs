@@ -2,18 +2,15 @@
 
 > 基于VUE的前端UI组件库
 
-## Usage
-
-First, install this package
+## 安装
 
 ```sh
 npm install @58fe/v5  --save
 ```
 
-Then import v5 component
+## 使用
 
-example:
-
+#### 例：
 ```javascript
 import { Alert } from '@58fe/v5'
 
