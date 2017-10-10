@@ -1,30 +1,24 @@
-#  招聘用户组组件工程
+#  V5
 
-> A Vue.js project
+> 基于VUE的前端UI组件库
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Usage
 
-# build for production with minification
-npm run build
+### @58fe/v5
 
-# build for production and view the bundle analyzer report
-npm run build --report
+First, install this package
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+```sh
+npm install @58fe/v5  --save
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Then import v5 component
+
+#### example:
+
+```javascript
+import { Alert } from '@58fe/v5'
+
+```
